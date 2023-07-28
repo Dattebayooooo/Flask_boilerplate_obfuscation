@@ -1,6 +1,10 @@
-##Steps 
+## Steps to Run 🏃‍♀️ 
 
-pip install nuitka
+1. restructure the project to seperate frontend from app as per above project
+2. run below command  
 
-nuitka --module --report=REPORT.txt --show-modules --verbose --show-memory --show-progress --include-plugin-directory=app --output-dir=out app
+~~~bash  
+  nuitka --module --report=REPORT.txt --show-modules --verbose --show-memory --show-progress --include-plugin-directory=app --output-dir=out app
+~~~
 
+NOTE: It doesnt support blueprint as of now.
